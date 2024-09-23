@@ -20,7 +20,7 @@ This portfolio is designed to highlight my projects, skills, and experience. It 
 - HTML5
 - CSS3
 - Flexbox and Grid for layout
-- [Any additional libraries or frameworks you used, e.g., Bootstrap, JavaScript]
+
 
 ## Installation
 
