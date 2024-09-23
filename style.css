@@ -1,0 +1,76 @@
+#max{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    }h3.hello span{
+        font-family:'Clicker Script',cursive;
+        font-size: 30px;
+        font-weight: 700;
+        color: var(--skin-color);
+    }
+    
+    #max h3{
+        color: brown;
+    }
+
+    #max a{
+    
+        color: white;
+        background: rgb(255, 0, 21);
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    #max a:hover{
+        background:gold;
+        color:red;
+    }
+    #banner {
+        display: grid;
+        grid-template-columns: auto auto;
+        height: 100vh;
+        width: 90vw;
+        margin: auto;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #banner div{
+        width: 45vw;
+    }
+    
+        img {
+        max-width: 100%; 
+        height: auto; 
+        display: block;
+        margin: 0 auto; 
+         border: 3px solid #ddd; 
+        border-radius: 10px; 
+        transition: transform 0.3s ease;
+        transition: box-shadow 0.3s ease;
+    } 
+    img:hover {
+        transform: scale(1.1); 
+    }
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+        gap: 20px;
+    }
+    .image-grid img {
+        width: 100%;
+        border-radius: 10px;
+    }#footer{
+    
+        background:red;
+        padding:12px;
+        color: white;
+    }
+    body{
+        background-color: aliceblue;
+    }
+    #wed{
+        font-style: italic;
+    }
